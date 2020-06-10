@@ -32,28 +32,29 @@ var alltihai = [
 	/*10*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>简答</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
 		+"编写算法，将一个节点类型为Node的单链表逆序链接，即若为a1，a2，a3……，an，则逆序链接后变为an……，a3，a2，a1。</span></p><p><strong><span>答案</span></strong></p><pre spellcheck=\"false\" class=\"md-fences md-end-block ty-contain-cm modeLoaded\" lang=\"c++\"><div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"c++\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><pre><span>xxxxxxxxxx</span></pre></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-variable-3\">void</span> <span class=\"cm-def\">cojtrary</span>(<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">L</span>)</span></pre></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\">{</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">last</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">NULL</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">NULL</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-keyword\">while</span>(<span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span> <span class=\"cm-operator\">!=</span> <span class=\"cm-variable\">NULL</span>)</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp;  {</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">last</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">last</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">L</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">L</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">next</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp;  }</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\">}</span></pre></div></div></div></div></div><div style=\"position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 312px;\"></div><div class=\"CodeMirror-gutters\" style=\"display: none; height: 312px;\"></div></div></div></pre><p><strong><span>解析</span></strong></p><p><strong><span>知识链接</span></strong></p></div>"
 		,
-	/*11*/""
-	,
+	/*11*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>简答</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
+		+"在虚拟存储器中，术语“物理空间”和“逻辑空间”有何联系和区别？</span></p><p><strong><span>答案</span></strong></p><figure><table><thead><tr><th><span>联系</span></th><th><span>区别</span></th></tr></thead><tbody><tr><td><span>程序运行时，必须把逻辑空间映射到物理空间。</span></td><td><span>物理空间是指实际地址对应的空间，又称“实存空间”；逻辑空间是指编程时可用的虚拟地址对应的地址空间，又称“虚存空间”。</span><br><span>逻辑空间远远大于物理空间。</span><br><span>物理空间是在运行程序时，计算机能提供的真正的主存空间；逻辑空间是用户编程时可以运用的虚拟空间。</span></td></tr></tbody></table></figure><p><strong><span>解析</span></strong></p><p><strong><span>知识链接</span></strong></p></div>"
+		,
 	/*12*/""
-	,
+		,
 	/*13*/""
-	,
+		,
 	/*14*/""
-	,
+		,
 	/*15*/""
-	,
+		,
 	/*16*/""
-	,
+		,
 	/*17*/""
-	,
+		,
 	/*18*/""
-	,
+		,
 	/*19*/""
-	,
+		,
 	/*20*/""
-	,
+		,
 	/*21*/""
-	,
+		,
 	];
 	
 	
