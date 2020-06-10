@@ -29,18 +29,31 @@ var alltihai = [
 	/*9*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>简答</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
 		+"简述计算机病毒的基本特征，列出几种你所知道的计算机病毒。</span></p><p><strong><span>答案</span></strong></p><p><span>（1）</span></p><figure><table><thead><tr><th><span>特点</span></th><th><span>说明</span></th></tr></thead><tbody><tr><td><span>寄生性</span></td><td><span>病毒具有把自身复制到其他程序的能力。</span></td></tr><tr><td><span>传染性</span></td><td><span>大部分病毒感染系统后一般不会马上发作。</span></td></tr><tr><td><span>潜伏性</span></td><td><span>大部分病毒感染系统后一般不会马上发作。</span></td></tr><tr><td><span>隐蔽性</span></td><td><span>很难被人发现病。</span></td></tr><tr><td><span>可触发性</span></td><td><span>病毒因某个事件或数值的出现，诱使病毒实施感染或进行攻击的特性称为可触发性。</span></td></tr><tr><td><span>破坏性</span></td><td><span>会对系统产生不同程度的影响。</span></td></tr><tr><td><span>不可预见性</span></td><td><span>不同类型的病毒，它们的代码千差万别，反病毒软件对病毒永远是滞后的。</span></td></tr></tbody></table></figure><p><span>（2）系统病毒：CIH；</span></p><p><span>蠕虫病毒：冲击波、小邮差；</span></p><p><span>木马病毒、黑客病毒：QQ消息尾巴、网络枭雄；</span></p><p><span>脚本病毒：共色代码、欢乐时光；</span></p><p><span>宏病毒：梅丽莎；</span></p><p><span>病毒种植程序：冰河播种者、MSN射手；</span></p><p><span>破坏性程序病毒：格式化C盘、杀手命令；</span></p><p><span>玩笑病毒：女鬼病毒；</span></p><p><span>捆绑机病毒：捆绑QQ、系统杀手。</span></p><p><strong><span>解析</span></strong></p><p>&nbsp;</p><p><strong><span>知识链接</span></strong></p><p><a href='./knowjisuanjibingdu.html'><span>计算机病毒</span></a></p></div>"
 		,
-	/*10*/
-	/*11*/
-	/*12*/
-	/*13*/
-	/*14*/
-	/*15*/
-	/*16*/
-	/*17*/
-	/*18*/
-	/*19*/
-	/*20*/
-	/*21*/
+	/*10*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>简答</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
+		+"编写算法，将一个节点类型为Node的单链表逆序链接，即若为a1，a2，a3……，an，则逆序链接后变为an……，a3，a2，a1。</span></p><p><strong><span>答案</span></strong></p><pre spellcheck=\"false\" class=\"md-fences md-end-block ty-contain-cm modeLoaded\" lang=\"c++\"><div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"c++\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><pre><span>xxxxxxxxxx</span></pre></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-variable-3\">void</span> <span class=\"cm-def\">cojtrary</span>(<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">L</span>)</span></pre></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\">{</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">last</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">NULL</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-variable\">Node</span> <span class=\"cm-operator\">*</span> <span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">NULL</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp;<span class=\"cm-keyword\">while</span>(<span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span> <span class=\"cm-operator\">!=</span> <span class=\"cm-variable\">NULL</span>)</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp;  {</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">L</span><span class=\"cm-operator\">-&gt;</span><span class=\"cm-variable\">next</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">last</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">last</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">L</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"cm-variable\">L</span> <span class=\"cm-operator\">=</span> <span class=\"cm-variable\">next</span>;</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"> &nbsp;  }</span></pre><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\">}</span></pre></div></div></div></div></div><div style=\"position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 312px;\"></div><div class=\"CodeMirror-gutters\" style=\"display: none; height: 312px;\"></div></div></div></pre><p><strong><span>解析</span></strong></p><p><strong><span>知识链接</span></strong></p></div>"
+		,
+	/*11*/""
+	,
+	/*12*/""
+	,
+	/*13*/""
+	,
+	/*14*/""
+	,
+	/*15*/""
+	,
+	/*16*/""
+	,
+	/*17*/""
+	,
+	/*18*/""
+	,
+	/*19*/""
+	,
+	/*20*/""
+	,
+	/*21*/""
+	,
 	];
 	
 	
