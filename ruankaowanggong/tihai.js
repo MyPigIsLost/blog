@@ -35,7 +35,8 @@ var alltihai = [
 	/*11*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>简答</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
 		+"在虚拟存储器中，术语“物理空间”和“逻辑空间”有何联系和区别？</span></p><p><strong><span>答案</span></strong></p><figure><table><thead><tr><th><span>联系</span></th><th><span>区别</span></th></tr></thead><tbody><tr><td><span>程序运行时，必须把逻辑空间映射到物理空间。</span></td><td><span>物理空间是指实际地址对应的空间，又称“实存空间”；逻辑空间是指编程时可用的虚拟地址对应的地址空间，又称“虚存空间”。</span><br><span>逻辑空间远远大于物理空间。</span><br><span>物理空间是在运行程序时，计算机能提供的真正的主存空间；逻辑空间是用户编程时可以运用的虚拟空间。</span></td></tr></tbody></table></figure><p><strong><span>解析</span></strong></p><p><strong><span>知识链接</span></strong></p></div>"
 		,
-	/*12*/""
+	/*12*/"<div  id='write'  class = 'is-node'><p><strong><span>题型</span></strong></p><p><span>判断</span></p><p><strong><span>题目</span></strong><span> </span></p><p><span>"
+		+"差错控制是一种主动的防范措施。</span></p><p><strong><span>答案</span></strong></p><p><span>对。</span></p><p><strong><span>解析</span></strong></p><p><span>差错检测能检查出计算机信号在网络传输过程中出现的信号传输错误，便于以后很好的对数据错误改正。</span></p><p><strong><span>知识链接</span></strong></p><p><a href='./know/chacuokongzhi.html'><span>差错控制</span></a></p><p>&nbsp;</p></div>"
 		,
 	/*13*/""
 		,
