@@ -2,10 +2,6 @@
 
 [操作系统的分类](./know/caozuoxitongdefenlei.html)
 
-[差错控制](./know/chacuokongzhi.html)
-
-[斐波那契数列](./know/feibonaqishulie.html)
-
 [进制转换](./know/jinzhizhuanhuan.html)
 
 [计算机病毒](./know/jisuanjibingdu.html)
@@ -31,6 +27,12 @@
 [ipv4地址的分类](./know/ipv4dizhidefenlei.html)
 
 [海明码](./know/haimingma.html)
+
+[奈奎斯特定理与香农定理](./know/naikuisitedingliyuxiangnongdingli.html)
+
+[差错控制](./know/chacuokongzhi.html)
+
+[斐波那契数列](./know/feibonaqishulie.html)
 
 # 数据库
 
